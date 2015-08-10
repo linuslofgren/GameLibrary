@@ -1,3 +1,3 @@
-(function(self) {
+;(function(self) {
 
 })(window.game = window.game || {});

@@ -1,8 +1,8 @@
+;
 var rootSrc = "";
-var functions = ['physics.js', 'functions.js', 'init.js'];
-for (var i = 0; i < functions.length; i++) {
+var scripts = ['physics.js', 'functions.js', 'init.js', 'object.js', 'component.js'];
+for (var i = 0; i < scripts.length; i++) {
   var e = document.createElement('script');
-  e.setAttribute('src', rootSrc + functions[i])
+  e.setAttribute('src', rootSrc + scripts[i]);
   document.head.appendChild(e);
 }
-//game.addPhysicsBody('a', 'a');
